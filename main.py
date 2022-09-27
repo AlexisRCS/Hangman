@@ -5,10 +5,10 @@ the main.py file launch the Hangman game, allow the player to set the difficulty
 """
 
 while True : 
-    difficulty = input("Define yours lives / difficulty! [1 - 10] : 1 = Hardcore ; 10 = Easy ; press Enter to acess to default (set at 5)")
+    difficulty = input("Define yours lives / difficulty! [1 - 10] : 1 = Hardcore, 10 = Easy, press Enter to access to default (set at 5)")
 
     while difficulty != "" and difficulty not in [str(value) for value in range(1,11)] :
-        difficulty = input("Define yours lives / difficulty! [1 - 10] : 1 = Hardcore ; 10 = Easy ; press Enter to acess to default (set at 5) ...")
+        difficulty = input("Define yours lives / difficulty! [1 - 10] : 1 = Hardcore, 10 = Easy, press Enter to access to default (set at 5) ...")
 
     if difficulty == "" :
         game = Hangman()
