@@ -16,10 +16,10 @@ while True :
         game = Hangman(int(difficulty))
     
     game.start_game()
-    replay = input("Want you to play again? [Y/N]")
+    replay = input("Do you want to play again? [Y/N]")
 
     while replay != "Y" and replay != "N" :
-        replay = input("Bad command. Want you to play again? [Y/N]")
+        replay = input("Bad command. Do you want to play again? [Y/N]")
 
     if replay == "Y" :
         pass
