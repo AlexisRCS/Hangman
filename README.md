@@ -10,7 +10,7 @@ The project is built arround two files :
 ## Installation
 Download the repository on your computer without modify the repository structure and files locations, then, 
 you can launch the game in your terminal (from the folder repository location) with the `python main.py` command 
-(This require python installed on your machin).
+(This requires python installed on your machin).
 
 ## Usage
 The Hangman game is a simple game where one or more players try to guess a word, each turn suggesting a letter.
